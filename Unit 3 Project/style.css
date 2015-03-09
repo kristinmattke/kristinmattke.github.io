@@ -1,0 +1,52 @@
+body {
+	background-size: cover;
+	text-align: center; 
+	color: white;
+	font-weight: lighter;
+	font-family: sans-serif;
+
+}
+
+
+h1 {
+	color: white;
+	font-weight: lighter;
+	font-family: sans-serif;
+	font-size: 100px;
+}
+
+<<<<<<< HEAD
+
+
+#slogan {
+	font-style: italic;
+	font-size: 75px;
+}
+=======
+/*h3 {
+	color: white;
+	font-weight: lighter;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-style: italic;
+}*/
+
+a { text-align: center; 
+
+}
+
+.small {
+	line-height: 1.5;
+}
+
+.big {
+	line-height: 3;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+>>>>>>> FETCH_HEAD
