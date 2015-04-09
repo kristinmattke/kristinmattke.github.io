@@ -1,15 +1,9 @@
 
-body{
-	margin-top: 100px;
-	margin-right: 100px;
-	margin-left: 100px;
-	margin-bottom: 100px;
-}
 
 nav{
 	display: block;
-	margin-top: 100px
-
+	margin-top: 40px;
+	text-align: center;
 }
 
 a:hover{
@@ -22,6 +16,8 @@ h1{
 	font-size: 2em;
 	color: #58585b;
 	text-align: center;
+	letter-spacing: 2.5px;
+	padding-top: 20px;
 }
 
 p{
@@ -37,17 +33,40 @@ li{
 	font-family: 'Rokkitt', serif;
 	font-size: 16px;
 	display: inline;
-	padding: 15px;
+	
 }
 
 
 a{
 	text-decoration: none;
-	color: black;
+	color: #58585b;
+	border-right: 1px solid #58585b;
+
+}
+
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.wrapper{
+	margin-top: 100px;
+	margin-bottom: 50px;
+	margin-right: 100px;
+	margin-left: 100px;
 }
 
 .logo{
 	text-align: center;
+	display: block;
+	float: left;
+	margin: 0 20px;
 }
 
 hr.style-one {
@@ -58,18 +77,22 @@ hr.style-one {
     background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
     background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
     background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
-    margin-top: 25px;
-    margin-bottom: 25px;
+    width: 300px;
+    display: block;
+    float: left;
+    margin:45px 0 49px;
 }
 
 .nav{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 16px;
 	display: inline;
-	padding: 15px;
+	padding: 20px;
 	text-align: center;
+	border-right: 1px; 
 
 }
+
 
 .images{
 	display: inline-block;
@@ -77,30 +100,24 @@ hr.style-one {
 
 }
 
-footer{
-	display: inline;
-
+li#noborder{
+	border-right: none;
 }
 
-.footer{
-	font-family: 'Rokkitt', serif;
-	font-size: 14px;
-	margin-left: 0;
-	padding-left: 0;
-	text-decoration: none;
-
+hr#style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+    width: 737px;
+    display: block;
+    float: none;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-#hero{
-	padding-top: 30px;
-}
 
-#fleft{
-	float: left;
-	
-}
 
-#fright{
-	float: right;
-
-}
